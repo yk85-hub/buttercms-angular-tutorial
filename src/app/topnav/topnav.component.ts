@@ -69,9 +69,7 @@ export class TopnavComponent implements OnInit, OnDestroy {
         this.router.navigate([`/customer`]);
     }
 
-    gotoFaq() {
-        this.router.navigate([`/faq`]);
-    }
+   
 
     gotoBlogPosts() {
         this.router.navigate([`/blog`]);
