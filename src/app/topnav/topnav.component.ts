@@ -42,11 +42,7 @@ export class TopnavComponent implements OnInit, OnDestroy {
                     icon: undefined,
                     click: () => this.gotoCustomer()
                 },
-                {
-                    textContent: 'FAQ',
-                    icon: undefined,
-                    click: () => this.gotoFaq()
-                },
+                
                 {
                     textContent: 'Blog Posts',
                     icon: undefined,
